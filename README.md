@@ -14,13 +14,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    // when you dive into building apps you will discover that, when working with UIKit, 
-		// the APIs can return very generic obkjects, such as UIViewController. 
-		// But as the developer of your application, you know what the specific type should be.
-
-    // for example, if pressing a button on the view of FirstViewController always presents a SecondViewController, 
-		// you can force the downcast of destination to SecondViewController within the prepare(for segue:) function. 
-		// This function is called whenever you present a new view controller.
+	// when you dive into building apps you will discover that, when working with UIKit, 
+	// the APIs can return very generic obkjects, such as UIViewController. 
+	// But as the developer of your application, you know what the specific type should be.
+	// for example, if pressing a button on the view of FirstViewController always presents a SecondViewController, 
+	// you can force the downcast of destination to SecondViewController within the prepare(for segue:) function. 
+	// This function is called whenever you present a new view controller.
 
     override func viewDidLoad() {
         super.viewDidLoad()
